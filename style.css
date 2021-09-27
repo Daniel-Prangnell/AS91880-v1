@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 4em; /* larger margin allows for footer */
+}
+
+.banner {
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em; 
+  border-top: solid black 2px;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+}
+
+nav{
+  background-color: #808080ff;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+  display: flex; /* Display the children of this element as flexible boxes */
+  align-items: center; /* Align child flexible boxes in the vertical center */
+  width: 100%;
+}
+nav p{
+  text-align: center;
+  flex-basis: 100px; /* give each paragraph the same width */
+  flex-grow: 1; /* allow each paragraph to grow evenly to fill up the parent nav element */
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+  nav a:hover {
+    color: black;
+}
