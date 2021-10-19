@@ -1,6 +1,7 @@
 header {
   display: flex;
   align-items: center;
+
 }
 
 .main {
@@ -28,6 +29,7 @@ nav{
   display: flex; /* Display the children of this element as flexible boxes */
   align-items: center; /* Align child flexible boxes in the vertical center */
   width: 100%;
+  max-width: 900px;
 }
 nav p{
   text-align: center;
