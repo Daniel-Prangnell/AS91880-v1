@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Quicksand&display=swap');
+
 header {
   display: flex;
   align-items: center;
@@ -11,25 +13,24 @@ header {
 }
 
 .banner {
-  margin-left: 0em;
-  margin-right: 0em;
-  margin-top: 0em;
-  margin-bottom: 0em; 
+  margin: auto;
   border-top: solid black 2px;
   border-left: solid black 2px;
   border-right: solid black 2px;
+  background-color: #808080ff;
+  border-bottom: 2px solid black !important;
 }
 
 nav{
   background-color: #808080ff;
-  border-top: solid black 2px;
   border-bottom: solid black 2px;
   border-left: solid black 2px;
   border-right: solid black 2px;
-  display: flex; /* Display the children of this element as flexible boxes */
   align-items: center; /* Align child flexible boxes in the vertical center */
+  display: flex; /* Display the children of this element as flexible boxes */
   width: 100%;
   max-width: 900px;
+  margin: auto;
 }
 nav p{
   text-align: center;
@@ -43,4 +44,18 @@ nav a{
 }
   nav a:hover {
     color: black;
+}
+
+.text {
+  background-color: #4a86e8ff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: solid black 2px;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
 }
