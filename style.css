@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=McLaren&family=Quicksand&display=swap');
 
-header {
-  display: flex;
-  align-items: center;
 
+
+
+#bannerimage {
+  width: 100%;
+  background-image: url(Banner-minecraft-website.png);
+  background-color: gray;
+  background-position: center;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 200px;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+header {
+  
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  border-top: solid black 2px;
+  border-left: solid black 2px;
+  border-right: solid black 2px;
+  border-bottom: 2px solid black;
+  max-width: 900px;
+  max-height: 200%;
 }
 
 .main {
@@ -12,14 +39,8 @@ header {
   margin-bottom: 4em; /* larger margin allows for footer */
 }
 
-.banner {
-  margin: auto;
-  border-top: solid black 2px;
-  border-left: solid black 2px;
-  border-right: solid black 2px;
-  background-color: #808080ff;
-  border-bottom: 2px solid black !important;
-}
+
+
 
 nav{
   background-color: #808080ff;
@@ -36,6 +57,7 @@ nav p{
   text-align: center;
   flex-basis: 100px; /* give each paragraph the same width */
   flex-grow: 1; /* allow each paragraph to grow evenly to fill up the parent nav element */
+  font-family: 'Quicksand', sans-serif;
 }
 nav a{
   color: white;
@@ -46,16 +68,35 @@ nav a{
     color: black;
 }
 
-.text {
-  background-color: #4a86e8ff;
+
+
+
+
+.text h1{
   color: white;
-  text-decoration: none;
   font-weight: bold;
+  font-family: 'McLaren', cursive;
+  margin: 0;
+  font-size:200%
+}
+
+.text p{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0; /* remove all body margins */
+  font-size: 120%;
+}
+
+
+
+.text_background{
   border-bottom: solid black 2px;
   border-left: solid black 2px;
   border-right: solid black 2px;
   display: flex;
   width: 100%;
   max-width: 900px;
+  height: max;
   margin: auto;
+  background-color: #4a86e8ff;
 }
